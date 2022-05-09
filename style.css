@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    margin-right: 5em;
+    list-style-type:none;
+}
