@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/background.jpeg");
+  
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+.app {
+  position: relative;
+}
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  margin: auto;
+}
+
+.footer {
+  bottom: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  margin: auto;
+}
+
+.links {
+  list-style: none;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  color: #0a58ca;
+}
+
+.hero-image {
+  position: absolute;
+  border-radius: 100%;
+  width: 150px;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 25%;
+}
+
+.hero-main {
+  position: relative;
+}
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 52%;
+  top: 500%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.hero-title {
+  color: white;
+}
+
+.hero-container p {
+  color: white;
+}
+
+.footer-about {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 42%;
+  top: 400%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+@media screen and (max-width: 700px) {
+  body {
+    background-size: auto;
+  }
+
+  .nav-links {
+    margin-right: 40px;
+  }
+
+  .hero-container  {
+    width: 300px;
+    left: 50%;
+  }
+
+  .footer-about {
+    top: 400%;
+    left: 50%;
+  }
+}
